@@ -113,7 +113,6 @@ namespace NuGetKeyVaultSignTool
             return true;
         }
 
-
         static string CopyPackage(string sourceFilePath)
         {
             var destFilePath = Path.GetTempFileName();
